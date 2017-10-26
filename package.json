@@ -1,0 +1,51 @@
+{
+  "name": "proxy-engine-example",
+  "version": "0.0.0",
+  "description": "Proxy Engine Example",
+  "homepage": "https://cali-style.com",
+  "author": {
+    "name": "scott-wyatt",
+    "email": "scottwyatt86@gmail.com",
+    "url": "https://cali-style.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "Proxy Engine",
+    "example",
+    "trails",
+    "pubsub",
+    "cron",
+    "tasks",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.13",
+    "trailpack-express": "^2.0.3",
+    "trailpack-proxy-email": "^2.1.0",
+    "trailpack-proxy-engine": "^2.1.0",
+    "trailpack-proxy-generics": "^2.1.0",
+    "trailpack-proxy-sequelize": "^2.0.0-beta",
+    "trailpack-repl": "^2.0.0",
+    "trailpack-router": "^2.0.0",
+    "trails": "^2.0.0",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-trails": "^2.0.0",
+    "mocha": "^2.5",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint --fix . && mocha"
+  },
+  "engines": {
+    "node": ">= 6.7.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "git@github.com:CaliStyle/proxy-engine-example.git",
+  "license": "MIT"
+}
